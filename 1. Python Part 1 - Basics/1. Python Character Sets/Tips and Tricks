@@ -1,0 +1,158 @@
+Python Programming Tips/Tricks
+So, these are the 10 simple yet most useful tips on Python programming:-
+
+1. Modules
+The best thing about python is that you can create your own modules. For example, I can create my own function and
+modules and place them all together in a separate folder. So what I do is I write down specific codes, which I know I
+would be used in common in most of my work, then convert them into a module and keep them aside in a separate folder.
+By doing this, I save a lot of time, from writing them again and debugging them to check for errors. Another reason is
+that you need to keep your program efficient and manageable if they are big in size. To manage this, you can break them
+into separate files, put multiple functions and definitions into a file and use them by importing them into scripts and
+programs. Note that these files will have a *.py extension. And once you import them, it will auto-create a *.pyc
+extension file that will load much quicker than the normal *.py file.
+
+2. True and False
+This is also one of the most used methods. If you have ever played games, and by games, I mean high-end Games, you
+must have noticed that sometimes you have to lower the graphics. But again, sometimes, even you cannot find these
+options in the game. So, what you normally do is, find the config file in the documents folder and change it. For
+example, you change the Vsync = True or False as per the situation. But the one which I am trying to explain here is
+somewhat different but still related to it. True equals to 1, and False equals to 0 in python. In short, true means
+you agree and false means you disagree. These things are used most often in python. So, you can either assign True
+and False statements by using the “=” sign, or you can check the equality by using the “==” sign. As simple as that.
+
+3. Python Performance debug
+When writing a program, our main goal is to make the program efficient, fast and compact. But there are times, when you
+simply cannot make the program compact. So at these times, you may not actually want to make the program compact to
+make it faster. What you can do is, for example, when handling codes in a dictionary, you can try an alternate method
+of dictating an item. Confused? Let me explain this. You can simply choose to add an item directly and then check
+whether the inserted items exist or need to be updated. So, by doing this, you don’t need to check each and every
+other item to match with it and then update it, which kind of will make the application slow. Following is a famous
+example of that:
+
+p = 16
+
+myDiction = {}
+
+for i in range(0, p):
+
+char = 'abcd'[i%4]
+
+if char not in myDict:
+
+myDiction[char] = 0
+
+myDiction[char] += 1
+
+print(myDiction)
+
+The above example is the normal way of writing it. Now here is how it will make the code run faster,
+
+p = 16
+myDiction = {}
+for I in range(0, p):
+char = ‘abcd’[i%4] try:
+myDiction[char] += 1
+except KeyError:
+myDiction[char] = 1
+print(myDiction)
+
+4. Py2exe
+Another useful tip I can think of is py2exe. Normally, when writing a code in any language, it can sometimes be a
+hassle to compile them into an executable, especially if you are using windows. But for Python Programming, it’s
+actually very simple. You can simply download py2exe, which again is open-source software that you can download
+from sourceforge.net. Using this app, you can simply convert even your modules into an exe, unlike C or C++, which i
+s actually stress of mind when compiling into an exe.
+
+5. Sets
+If you are a maths freak, you would surely love this next tip. You may have used sets in your lower classes.
+Remember something? Yeah, exactly, Unions and stuff. So, there are people like me who don’t like to use automated
+softwares sometimes. The reason for that is Security. Let’s take a simple example of Microsoft Excel. Some people
+tend to use excel only to the group and create a database. They just need that and good security for that. They are
+not interested in formatting the text, colour and stuff. So, what I do at those times, is I create my own python
+Programming software stack and create my own database. For some of my security reasons, I prefer Python over MYSql.
+So, coming back to my point of sets, Sets are extremely useful when creating databases. Especially when you want to
+find matches, create groups and other similar tasks. Following is a simple example of that.
+
+>>> A = {1, 2, 3, 3}
+>>> A
+set([1, 2, 3])
+>>> B = {3, 4, 5, 6, 7}
+>>> B
+set([3, 4, 5, 6, 7])
+>>> A | B
+set([1, 2, 3, 4, 5, 6, 7])
+>>> A & B
+set([3])
+>>> A - B
+set([1, 2])
+>>> B - A
+set([4, 5, 6, 7])
+>>> A ^ B
+set([1, 2, 4, 5, 6, 7])
+>>> (A ^ B) == ((A - B) | (B - A))
+True
+
+6. Merging Python and Shell Scripts
+Now, this is something you can’t do with C or C++. If you are an open-source guy, you would surely use Linux as the main Operating OS, or at least a Dual Boot. So, Linux already includes python. And python is extremely compatible with Linux. This gives us the benefit of compiling and merging them together. You can simply create a script that can work as a normal Unix script as well as an interpreted Python code at the same time. When writing a shell script, you need a four quote character and an empty string to the shell, but you need to do that with a triple-quoted string with a quote character in python. Remember that the first string in a script can be easily stored as a doc string for a module, but after that, the python interpreter will simply ignore it.
+
+An example is as follows:
+
+#!/bin/sh
+__doc__ = """
+Demonstrate how to mix Python + shell script.
+"""
+import sys
+print "Hello World!"
+print "This is Python", sys.version
+print "This is my argument vector:", sys.argv
+print "This is my doc string:", __doc__
+sys.exit (0)
+
+7. JSON-esque
+Python has a lot of hidden stuff underneath. It only takes a person and his time to find out what all magical operators and stuff are hidden inside. One among all the other stuff is the famous JSON-esque. You can create nested dictionaries without explicitly creating sub-dictionaries. They magically come into existence as we reference them.
+
+Example as follows:
+
+users = tree()
+users['harold']['username'] = 'hrldcpr'
+users['handler']['username'] = 'matthandlersux'
+
+Now you can print the above as JSON with:
+
+>>>print(json.dumps(users))
+
+And it will look like this
+
+{"harold": {"username": "hrldcpr"}, "handler": {"username": "matthandlersux"}}
+
+8. Pip
+Pip is something maybe most people know of. But still, it is awesome stuff that you need to know if you are starting with python. Sometimes, you need to inspect the source of a package before installing it. Most of the times, it’s for installing a newer version of some package. So, you can simply install pip and do the following:
+
+>>> pip install --download sqlalchemy_download sqlalchemy
+>>>pip install --no-install sqlalchemy
+>>>pip install --no-download sqlalchemy
+
+If you want to install the bleeding-edge version of a package, you can directly check it from the GIT repository.
+
+>>>pip install git+https://github.com/simplejson/simplejson.git
+>>>pip install svn+svn://svn.zope.org/repos/main/zope.interface/trunk
+
+9. Virtualenv
+Another important function of python is Virtualenv. Virtualenv means Virtual Environment. This, now my friends, is a very awesome function of python. Basically, to test python in different conditions, you would normally you would have to change the global python environment. But, one of the key benefits of sandboxing your python environment is that you can easily test one code under different python versions and package dependencies. To install virtualenv, you need to install pip first.
+You can do as follows:
+
+easy_install pip
+pip install virtualenv
+virtualenv python-workspace
+cd python-workspace
+source ./bin/activate
+python
+
+10. Zen of Python
+Last but not the least, it’s the Zen of python. Zen of python is a mini-guide for python programming. Even if you don’t program python, it’s still an interesting thing to read. Just simply go to the python interpreter and type:
+
+>>>import this
+
+And I won’t be explaining this one because it’s simply amazing to try it out yourself.
+
+And now, we have come to the end of the road. These are just my experiences, but if you find some, sure, do post it so that the world knows how exactly awesome python is.

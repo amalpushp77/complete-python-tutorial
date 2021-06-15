@@ -1,0 +1,104 @@
+The top 15 Features of Python are as follows:
+
+1. Easy to Write
+These days with the increasing number of libraries in the languages, most of the time of developer goes in remembering
+them. This is one of the great features of python as python libraries use simple English phrases as it’s keywords.
+Thus it’s very easy to write code in python. For e.g.:-
+
+Writing code for function doesn’t use curly braces to delimit blocks of code. One can indent code under a function,
+loop, or class.
+
+def fun()
+print("Hi, i am inside fun");//this line    comes under function block as it is indented.
+print("Hi ,i am outside  fun");//This line will be printed when control comes out of the function block.
+
+2. Easy to Understand
+This is the most powerful feature of the python language, which makes it everyone’s choice. As the keyword used
+here are simple English phrases; thus, it is very easy to understand.
+
+3. Object-Oriented
+Python has all features of an object-oriented language such as inheritance, method overriding, objects, etc.
+Thus it supports all the paradigms and has corresponding functions in their libraries. It also supports the
+implementation of multiple inheritances, unlike java.
+
+4. Robust Standard Libraries
+The libraries of python are very vast that include various modules and functions that support various operations
+working in various data types such as regular expressions etc.
+
+ Popular Course in this category
+Python Training Program (36 Courses, 13+ Projects)
+36 Online Courses | 13 Hands-on Projects | 189+ Hours | Verifiable Certificate of Completion | Lifetime Access
+4.8 (8,933 ratings)Course Price
+₹7999 ₹41999
+View Course
+Related Courses
+Programming Languages Training (41 Courses, 13+ Projects, 4 Quizzes)Angular JS Training Program (9 Courses, 7 Projects)
+5. Supports Various Programming Paradigms
+With support to all the features of an object-oriented language, Python also supports the procedure-oriented paradigm.
+It supports multiple inheritances as well. This is all possible due to its large and robust libraries that contain
+functions for everything.
+
+6. Support for Interactive Mode
+Python also has support for working in interactive mode where one can easily debug the code and unit test it lines by
+line. This helps to reduce errors as much as possible.
+
+7. Automatic Garbage Collection
+Python also initiates automatic garbage collection for great memory and performance management. Due to this, memory can
+be utilized to its maximum, thus making the application more robust.
+
+8. Dynamically Typed and Type Checking
+This is one of the great feature of python that one need not declare the data type of a variable before using it. Once
+the value is assigned to a variable, its datatype gets defined. Thus, type checking in python is done at a run time,
+unlike other programming languages.
+
+For e.g.-
+
+v=7;// here type or variable v is treated as an integer
+v="great";//here type of the variable v is treated as a string
+
+9. Databases
+The database of an application is one of the crucial parts that also need to be supported by the corresponding
+programming language being used. Python supports all the major databases that can be used in an application, such as
+MYSQL, ORACLE, etc. Corresponding functions for their database operations have already been defined in python libraries.
+one needs to include those files in code to use it.
+
+10. GUI Programming
+Python being a scripting language also supports many features and libraries that allow graphical development of the
+applications. In the vast libraries and functions, corresponding system calls and procedures are defined to call the
+particular OS calls to develop an application’s perfect GUI. Python also needs a framework to be used to create such a
+GUI. Examples of some of the frameworks are Django, Tkinter, etc.
+
+11. Extensible
+This feature makes use of other languages in python code possible. This means python code can be extended to other
+languages as well; thus, it can easily be embedded in existing code to make it more robust and enhance its features.
+Other languages can be used to compile our python code.
+
+12. Portable
+A programming language is portable if it allows us to code once and runs anywhere. This means the platform where it
+has been coded and where it is going to run need not be the same. This feature allows one of the most valuable features
+of object-oriented languages-reusability. As a developer, one needs to code the solution and generated its byte code
+and need not worry about the environment where it will run. EO-one can run a code developed on the Windows operating
+system on any other operating system Linux, Unix, etc.
+
+13. Scalable
+This Language helps develop various systems or applications capable of handling a dynamically increasing amount of work.
+These types of applications help a lot in the organisation’s growth as they are strong enough to handle the changes
+upto some extent.
+
+14. Free and Open Source
+Yes, u read it correctly u need not pay a single penny to use this language in your application. One needs just to
+download it from its official website, and it’s all done to start. And as it is open-source, its source code has also
+been made public. One can easily download it and use it as required as well as share it with others. Thus it gets
+improved every day.
+
+15. Integrated
+Python can be easily integrated with other available programming languages such as C, C++, Java, etc. This allows
+everyone to use it to enhance the functionality of existing applications and make them more robust.
+
+Conclusion
+Python is an advanced, high-level, robust, open-source, but easy to understand and code language that allows the
+developer to concentrate on the solution rather than remembering a large number of keywords, as it uses simple and easy
+to remember English phrases as its keywords.
+
+Its robust library, support for different paradigms, and GUI programming feature and integrated feature make it the
+most suitable language among others.
