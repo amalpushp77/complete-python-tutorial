@@ -1,6 +1,6 @@
-# To know more on keywords visit this link - https://www.programiz.com/python-programming/keyword-list
+# To know more on keywords visit the link - https://www.programiz.com/python-programming/keyword-list
 
-# starts with capital letter
+# the keywords that starts with capital letter
 # True
 # False
 # None

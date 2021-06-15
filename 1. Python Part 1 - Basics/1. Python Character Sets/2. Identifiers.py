@@ -5,7 +5,6 @@
     2) user define function name ex- def func():
     3) user define class name ex - class Student:
     4) module/package name
-    5) etc..
     """
 
 # types of casing
@@ -17,7 +16,6 @@
 num = 50
 age = 18
 math_marks = 50
-# print(num)
 
 # should be a single word
 # number 1 = 17  # SyntaxError: invalid syntax
@@ -34,4 +32,4 @@ __a = 2
 
 # _ is used as garbage collector
 _ = 7
-print(_)
+# print(_)
