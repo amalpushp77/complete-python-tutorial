@@ -4,12 +4,23 @@
 # * operator is used to repeat whole string
 
 s = "Hello World"
-print(type(s))
+print("Datatype stored in variable s is ", type(s))
 
-a = "hello "+"world"  # concatenate two strings, single parameter to function print
-print(a)
+# concatenate two strings, single parameter to function print
+without_space = "hello" + "world"
+with_space = "hello" + " " + "world"
+print(without_space)
+print(with_space)
 
-#print("hello"+" "+"world") #concatinate three strings, single parameter to function print
+""" understanding print function
+    earlier we used one parameter to print function, now we are using two parameters
+    what is a parameter? -> any value given to the function is a parameter
+    for ex - on line 13 with_space is a parameter to print() function
+"""
+a1 = "hello"
+a2 = "world"
+print(a1, a2)  # adding parameters to print function adds a space in between them
+# you can use infinite number of parameters in print() function
 
 #print("hello "*3) #for printing same word three times
 #print ("hello"+3) #it will give error because we can add only two string data types we cannot add one integer and one string datatype

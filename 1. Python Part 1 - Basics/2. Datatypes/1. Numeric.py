@@ -1,24 +1,17 @@
-#Numeric Datatype
+# Numeric Datatype
 
-#Integer
-
+# 1) Integer
 a = 3
-print(type(a))
+# type() -> built-in function that returns the datatype/object of the input
+print("Datatype stored in variable a is ", type(a))
 
-#Float
-
+# 2) Float
 b = 2.7
-print(type(b))
+print("Datatype stored in variable b is ", type(b))
 
-#Complex
-
+# 3) Complex
 c = 3+4j
-print(type(c))
-#print(c.real) #to obtain real and imaginary part separately
-#print(c.imag)
-
-
-
-#b = int(input("enter your int:")) #take input as integer datatype
-#print(b+3)
-
+print("Datatype stored in variable c is ", type(c))
+# to obtain real and imaginary part separately
+# print(c.real)
+# print(c.imag)
