@@ -22,48 +22,60 @@ a2 = "world"
 print(a1, a2)  # adding parameters to print function adds a space in between them
 # you can use infinite number of parameters in print() function
 
-#print("hello "*3) #for printing same word three times
-#print ("hello"+3) #it will give error because we can add only two string data types we cannot add one integer and one string datatype
+print("hello " * 3)  # for printing same word three times
+# print("aditya" * "patro") # TypeError: can't multiply sequence by non-int of type 'str'
+print("aditya" + "patro")  # concatenation of string datatype
+# print("hello"+3) # TypeError: can only concatenate str (not "int") to str
 
 
-#Escape Sequence
-t = 'what\'s your name'
+# Escape Sequence
+t = 'what\'s your name?'
 print(t)
 
-string = 'what is \n your name?'
+string = 'what is \n your name?'  # \n -> for next line
 print(string)
 
-#c = "he said,\"what's there?\""  #use of escape sequence \' \" \n
-#print(c)
+# double quote string
+c = "he said,\"what's there?\""  # use of escape sequence \' \" \n
+print(c)
 
-#d = 'he said,"what\'s there?"'
-#print(d)
+# single quote string
+d = 'he said,"what\'s there?"'
+print(d)
 
-#Supress Escape sequence
-
+# Suppress Escape sequence
 # notice \n is escape sequence , try removing r before string and run the program
 link = r'C:\asd\sdfsd\cvaswfvs\new folder\python'
 print(link)
 
-#Input
 
-#a = input("enter your name:") #take input from user, by default datatype of input is string
-#print(a)
+# String formatting
+age = int(input("Enter your age: "))
+sentence = f"My age is {age}"
+print(sentence)
 
-##i = input("Enter your name: ")
-##print("User entered: " + i)
-##
-##num = int(input("Enter your age: "))
-##print("Your age at present is" , num, "asdasdas", i)
-##
-##print(type(num))
-###num += 10
-##num = num +10
-##print("Your age after 10 years will be " , num)
 
-# format method
-print('hello {a} {s} . welcome to {c}'.format(a='jay',s='d',c='rcoem')) #format method
-first_name = input("enter the first name: ")
-last_name = input("enter the surname: ")
-college_name=input("enter the university: ")
-print('hello {} {}welcome to {}'.format(first_name,last_name,college_name))
+# Input function return type
+a = input("enter your name: ")  # take input from user, return type of input function is string
+print(type(a))
+
+# concatenation of strings using +
+name = input("Enter your name: ")
+print("User entered: " + name)
+
+# when you want to form a sentence using different datatype avoid using +, instead of this you can use string
+# formatting (recommended) or use datatype as print parameters
+age = int(input("Enter your age: "))
+print(type(age))
+
+# using print function with parameters
+print("Hi", name, ",are you", age, "years old?")
+
+# using string formatting
+print(f"Hi {name}, are you {age} years old?")
+
+# age += 10   #
+age = age + 10
+print("Your age after 10 years will be ", age)
+
+
