@@ -64,9 +64,11 @@ class ComplexOverloading:
         self.real = real
         self.img = img
 
+    # p1.__add__(p2)
     def __add__(self, other):
         return complex(self.real + other.real, self.img + other.img)
 
+    # p1.__sub__(p2)
     def __sub__(self, other):
         return complex(self.real - other.real, self.img - other.img)
 

@@ -1,0 +1,4 @@
+1. WAF writer() using with statement that takes list of temperature as input and creates a text file 'temps.txt'.
+Store the temperature in Fahrenheit. Do it using context manager.
+
+2. Repeat the above question without using context manager but should behave like one. Hint: use error handling

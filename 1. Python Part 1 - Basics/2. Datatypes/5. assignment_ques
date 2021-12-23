@@ -1,0 +1,29 @@
+1. WAP to add 2 numbers by taking input from user. PQ - input(), int()
+
+2. WAP to concatenate first name with last name by taking input from user.
+
+3. Create user specific message using this template:
+"Hi <firstname> <lastname>, please verify your phone number <phone> and email address <email> for smooth customer
+service. Regards Service Manager"
+
+4. Which of the following operator is used with list:
+    a) +    b) -    c) *    d) /    e) in
+
+5. Comment on the output
+a = 5/3
+round(a, 2)
+
+p = 4 * 5 ** 2
+print(p)
+
+n = ---5
+print(n)
+
+6. Which of the following is not valid
+    a) abc = 745,000,475
+    b) a b, c = 1245,0145,457
+    c) a, b, c = 1209,789,001
+    d) a_b_c = 1245
+
+
+

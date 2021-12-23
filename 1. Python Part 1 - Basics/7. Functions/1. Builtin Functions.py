@@ -1,47 +1,37 @@
 # https://www.w3schools.com/python/python_ref_functions.asp
 
-""" A funtion is a block of code which only runs when it is called.
+""" 1. Sequential Programming
+    2. Procedural Programming
+    3. Object Oriented Programming"""
+
+""" A function is a block of code which only runs when it is called.
         Types of Functions
         1) Built in functions
-        2) User define fuction
-        3) Methods (fuctions which is a part of a class)
+        2) User define function
+        3) Methods (functions which is a part of a class)
         4) Anonymous function  """
 
+# Built-in Functions
+# more on built-in functions https://www.w3schools.com/python/python_ref_functions.asp
 
-a = 'abcd'
-print(len(a))
+# Important function
+# 1. dir() returns an object's attribute
 
-#Built-in Functions
+# 2. range()
 
-#Important function
+# 3. enumerate() returns index,value pair of itreable objects
 
-#dir() returns an object's attribute
+# 4. help() return the documentation
+# print(help(print))
 
-#range()
-#enumerate() returns index,value pair of itreable objects
+# 5. input() take input from user and returns a string
 
-#help() return the documentation
-#print(help(print))
+# 6. len() returns the length of object
+# print(len('abcd'))
 
-#input() returns a string
+# 7. print()
 
-#len() returns the length of object
-
-#print(len('abcd'))
-
-
-# print()
-#print("hello","world") #concatinate two strings, two parameter to function print
-#print(sep=' ')
-#print('amal'+'pushp','hello')
-
-#print(end='\n')
-##print('hello', end=' ')
-##print('world')
-##print('abc')
-
-
-#all type casting functions
+# all type casting functions
 '''
 int()
 str()
@@ -53,83 +43,88 @@ set()
 dict()
 '''
 
-#filter()
+# 8. filter()
 
 ages = [5, 12, 17, 18, 24, 32]
 
+
 def myFunc(x):
-  if x < 18:
-    return False
-  else:
-    return True
+    if x < 18:
+        return False
+    else:
+        return True
+
 
 adults = list(filter(myFunc, ages))
 
 print(adults)
 
-
-#map()
+# 9. map()
 
 ages = [5, 12, 17, 18, 24, 32]
 
+
 def myFunc(x):
-  if x < 18:
-    return False
-  else:
-    return True
+    if x < 18:
+        return False
+    else:
+        return True
+
 
 adults = list(map(myFunc, ages))
 
 print(adults)
 
-#zip()
+# 10. zip()
 
-name = ['abc','def','ije']
-age = [23,34,24]
-marks = (45,55,56)
+name = ['abc', 'def', 'ije']
+age = [23, 34, 24]
+marks = (45, 55, 56)
 
-sheet = list(zip(name,age,marks))   # tips n trick with for loop
+sheet = list(zip(name, age, marks))  # tips n trick with for loop
 print(sheet)
-#========================================================================================
-#Functions
 
-#ascii() returns a value to non ascii character
-#print(type(ascii('ș')))
 
-#chr() returns the character
-#print(chr(67))
+# ========================================================================================
+# Functions
 
-#max() returns maximum value
-#min() returns minimum value
+# ascii() returns a value to non ascii character
+# print(type(ascii('ș')))
 
-#open()
+# chr() returns the character
+# print(chr(67))
 
-#ord() returns an integer that represents Unicode
+# max() returns maximum value
+# min() returns minimum value
 
-#sorted() returns a sorted object
+# open()
 
-#iter()
-#next()
+# ord() returns an integer that represents Unicode
 
-#==========================================================================================
+# sorted() returns a sorted object
+
+# iter()
+# next()
+
+# ==========================================================================================
 # other functions
 
 # round()
-#print(round(758.12856,3)) #example of round
+# print(round(758.12856,3)) #example of round
 
-#==========================================================================================
-#Related to class
+# ==========================================================================================
+# Functions related to class
 
-#classmethod()
-#delattr()
-#getattr()
-#hasattr()
-#setattr()
-#hash()
-#property()
-#id()
-#isinstance()
-#issubclass()
-#object()
-#staticmethod()
-#super()
+# classmethod()
+# delattr()
+# getattr()
+# hasattr()
+# setattr()
+# hash()
+# property()
+# id()
+# isinstance()
+# issubclass()
+# object()
+# staticmethod()
+# super()

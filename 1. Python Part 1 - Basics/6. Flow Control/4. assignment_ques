@@ -1,0 +1,22 @@
+1. WAP to find the largest of 2 numbers taken from user
+
+2. WAP to find
+    a) the largest of 3 numbers taken from user
+    b) the largest and the smallest of 3 numbers taken from user
+
+3. Create a multiplication table form 1*1 up to 10*10.
+
+4. Print multiplication table of 14 from a list in which multiplication table of 12 is stored.
+l = [12, 24, 36, 48, 60, 72, 84, 96, 108, 120]
+
+5. Using range(1,101), print all numbers which are divisible bt 5
+
+6. WAP to print all the consonants by taking input from user
+string = "combining the best experiences in tile manufacture and latest technology, " \
+         "artile become a highest achievement in lifestyle."
+
+7. Display only number(without comma)
+number = '9,452,798,132,546,500'
+
+6. WAP tp find the index of every element (included nested once) for:
+l = ['a', 'b', '65', 54, '78', 67.46788, [1, 2, 3], 'Hello World', 7 - 3.8j, (4, 5, 6, 7, 8)]

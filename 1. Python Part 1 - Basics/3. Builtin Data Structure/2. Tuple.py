@@ -1,10 +1,16 @@
-#Tuple ( )
-#t=() #for the empty tuple
-t = (1,'abc',2.34,3+4j,True)
+# Tuple is denoted by ( )
+
+# t = () # empty tuple
+
+t = (1, 'abc', 2.34, 3+4j, True)
 print(t)
 print(type(t))
 
+# how to write one element in tuple -> (4,)
+int_datatype = (4)
+tuple_data_structure = (4,)
+print(type(int_datatype))
+print(type(tuple_data_structure))
 
-#this datatype is called tuple since only 4 is the only element in second tuple it's datatype will be integer but when we write 4, it is tuple
-#t = (1,2,3,'hello') + (4,)
-#print(1 not in t) #checking membership operator
+# t = (1,2,3,'hello') + (4,)  # concatenation
+# print(1 not in t)  # membership operator is used to check whether 1 is present in tuple or not

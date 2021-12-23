@@ -15,10 +15,12 @@ print(with_space)
 """ understanding print function
     earlier we used one parameter to print function, now we are using two parameters
     what is a parameter? -> any value given to the function is a parameter
-    for ex - on line 13 with_space is a parameter to print() function
+    for ex - in above statement with_space is a parameter to print() function
 """
+
 a1 = "hello"
 a2 = "world"
+
 print(a1, a2)  # adding parameters to print function adds a space in between them
 # you can use infinite number of parameters in print() function
 
@@ -61,7 +63,8 @@ print(type(a))
 
 # concatenation of strings using +
 name = input("Enter your name: ")
-print("User entered: " + name)
+# print("User entered: " + name)
+print("User entered: ", name)
 
 # when you want to form a sentence using different datatype avoid using +, instead of this you can use string
 # formatting (recommended) or use datatype as print parameters
@@ -77,5 +80,3 @@ print(f"Hi {name}, are you {age} years old?")
 # age += 10   #
 age = age + 10
 print("Your age after 10 years will be ", age)
-
-

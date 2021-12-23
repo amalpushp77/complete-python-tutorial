@@ -22,5 +22,5 @@ e = E()
 print(e.x)
 print(E.__mro__)
 
-""" If the same class apears in mro (method resolution order) the earlier occurrence get removed
+""" If the same class appears in mro (method resolution order) the earlier occurrence get removed
     E-B-A-D-C-A -> E-B-D-C-A. Still in DFS"""

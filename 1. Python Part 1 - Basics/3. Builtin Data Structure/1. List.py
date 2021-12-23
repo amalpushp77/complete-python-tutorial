@@ -1,14 +1,14 @@
-#List [ ]
-#l=[] #for the empty list#l=[] #for the empty list
-l = [1,'abc',2.34,3+4j,True]
-print(l)
-print(type(l))
+# List is denoted by [ ]
+
+# l=[]   # empty list
+
+l = [1, 'abc', 2.34, 3+4j, True]
+print(l)  # print the value of variable l on output window
+
+# type(l) # list data structure
+
+# print(2 in l) # membership operator is used to check whether 2 is present in l or not
+# a = [1,2,3]+['world',5+3j] # concatenate two list
+# print(a)
 
 
-
-#l = [1,2,3]
-#type(l) #datatype list
-
-#print(2 in l) #checking membership operator
-#a = [1,2,3]+['world',5+3j] #concatinate two list
-#print(a)

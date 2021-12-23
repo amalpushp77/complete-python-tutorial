@@ -1,0 +1,62 @@
+Introduction to Python -
+Python is known as an interpreted scripting language. Gudo van Rossum designed it. It was released in the year 1991. The
+different versions were released for Python like python 1, python 2 and python 3. It is one of the most used scripting
+languages for automating the modules and tools, development of web applications, handling big data, complex
+calculations, workflow creation, rapid prototyping, and other software development purposes.
+
+Highlights of Python
+
+1. Platform independent
+
+2. Interpreted
+The python code does not need to compile as required for other languages. Python code automatically converts the source
+code into byte code internally, and the code is executed line by line, not at once, so it takes more time to execute the
+code for the application.
+
+3. Simple to understand
+
+4. Rich library support
+
+5. Embeddable
+Python source code can be put into a different language to use. This helps in integrating the functionality of the
+python program with other languages.
+
+6. Open-source
+Python is open source and readily available over the internet anywhere. One does not need to take the license of it.
+It can be easily downloaded and use.
+
+7. Dynamically typed
+It is dynamically typed, which means that the type of value will be decided at run time. This is the reason why the
+programmers don’t declare the type of variable earlier.
+
+Applications based on Python
+
+Web applications and frameworks
+Software development
+Testing
+Graphic user interface applications
+Operating Systems
+Applications/Tools for (Business and Enterprise)
+To automate tasks
+AI/ML
+Data Science
+Computer Vision/Image Processing
+Computer Graphics - AR/VR
+Animation - 2D/3D
+IOT
+Scientific Application
+
+
+Disadvantages of Python
+Not so good for mobile application development
+It has limitations with database access, not suitable for enterprise that deals with complex legacy data (JDBC/ODBC).
+Difficult for programmers to deal with runtime error, require more testing.
+High memory consumption - not good for memory intensive task.
+Slow speed.
+High power consumption.
+Need more maintenance of application and code.
+
+
+Installation
+(Python) [https://www.youtube.com/watch?v=uDbDIhR76H4&ab_channel=AmitThinks]
+(Pycharm IDE) []

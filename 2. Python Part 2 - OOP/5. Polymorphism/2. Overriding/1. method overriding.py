@@ -1,5 +1,5 @@
 
-# Function overriding
+# Function overriding - same function with different functionality
 # https://www.geeksforgeeks.org/method-overriding-in-python/
 
 

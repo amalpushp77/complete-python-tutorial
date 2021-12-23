@@ -5,7 +5,7 @@
 
 
 """ Programming languages can be classified into 3 primary types
-        1. Unstructured Programming Languages
+        1. Unstructured/Sequential Programming Languages
         2. Structured/Procedural oriented Programming Languages
         3. Object Oriented Programming Languages"""
 
@@ -43,7 +43,7 @@ add(7,9)
 
 
         1) Class - A user-defined prototype/blueprint for an object
-        2) Instance (Object) − An individual object of a certain class.
+        2) Instance (Object) − An individual object of a certain class. i.e Instance of a class is called object.  
         3) Instantiation (Object creation) − The creation of an instance of a class.
         4) Class variable - A variable that is shared by all instances of a class. Class variables are defined within a
             class but outside any of the class's methods. Mainly used to declare constants.

@@ -1,16 +1,14 @@
-The top 15 Features of Python are as follows:
 
 1. Easy to Write
-These days with the increasing number of libraries in the languages, most of the time of developer goes in remembering
-them. This is one of the great features of python as python libraries use simple English phrases as it’s keywords.
+This is one of the great features of python as python libraries use simple English phrases as it’s keywords.
 Thus it’s very easy to write code in python. For e.g.:-
 
-Writing code for function doesn’t use curly braces to delimit blocks of code. One can indent code under a function,
+Writing code for function does not use curly braces to delimit blocks of code. One can indent code under a function,
 loop, or class.
 
 def fun()
-print("Hi, i am inside fun");//this line    comes under function block as it is indented.
-print("Hi ,i am outside  fun");//This line will be printed when control comes out of the function block.
+print("Hi, i am inside fun")  #this line    comes under function block as it is indented.
+print("Hi ,i am outside  fun") #This line will be printed when control comes out of the function block.
 
 2. Easy to Understand
 This is the most powerful feature of the python language, which makes it everyone’s choice. As the keyword used
@@ -25,14 +23,6 @@ implementation of multiple inheritances, unlike java.
 The libraries of python are very vast that include various modules and functions that support various operations
 working in various data types such as regular expressions etc.
 
- Popular Course in this category
-Python Training Program (36 Courses, 13+ Projects)
-36 Online Courses | 13 Hands-on Projects | 189+ Hours | Verifiable Certificate of Completion | Lifetime Access
-4.8 (8,933 ratings)Course Price
-₹7999 ₹41999
-View Course
-Related Courses
-Programming Languages Training (41 Courses, 13+ Projects, 4 Quizzes)Angular JS Training Program (9 Courses, 7 Projects)
 5. Supports Various Programming Paradigms
 With support to all the features of an object-oriented language, Python also supports the procedure-oriented paradigm.
 It supports multiple inheritances as well. This is all possible due to its large and robust libraries that contain
@@ -53,8 +43,8 @@ unlike other programming languages.
 
 For e.g.-
 
-v=7;// here type or variable v is treated as an integer
-v="great";//here type of the variable v is treated as a string
+v=7  # here type or variable v is treated as an integer
+v="great" # here type of the variable v is treated as a string
 
 9. Databases
 The database of an application is one of the crucial parts that also need to be supported by the corresponding
@@ -86,19 +76,7 @@ These types of applications help a lot in the organisation’s growth as they ar
 upto some extent.
 
 14. Free and Open Source
-Yes, u read it correctly u need not pay a single penny to use this language in your application. One needs just to
-download it from its official website, and it’s all done to start. And as it is open-source, its source code has also
-been made public. One can easily download it and use it as required as well as share it with others. Thus it gets
-improved every day.
 
 15. Integrated
 Python can be easily integrated with other available programming languages such as C, C++, Java, etc. This allows
 everyone to use it to enhance the functionality of existing applications and make them more robust.
-
-Conclusion
-Python is an advanced, high-level, robust, open-source, but easy to understand and code language that allows the
-developer to concentrate on the solution rather than remembering a large number of keywords, as it uses simple and easy
-to remember English phrases as its keywords.
-
-Its robust library, support for different paradigms, and GUI programming feature and integrated feature make it the
-most suitable language among others.

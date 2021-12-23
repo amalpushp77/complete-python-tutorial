@@ -6,6 +6,7 @@
     # https://rszalski.github.io/magicmethods/"""
 
 
+# Constructors are special methods which are used to initialise the members of a class at the time of instantiation
 # 1. Parameterized Constructor
 # 2. Non-parameterized Constructor
 

@@ -1,4 +1,4 @@
-# Method Overloading
+# Method Overloading - same function with different parameters
 
 class Point:
     def set_coordinate(self, x=None, y=None, z=None):
