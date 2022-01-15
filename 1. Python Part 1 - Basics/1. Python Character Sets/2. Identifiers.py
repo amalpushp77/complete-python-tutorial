@@ -24,19 +24,22 @@ num = 50
 age = 18
 math_marks = 50
 
-# should be a single word
+# should be a single variable
 number1 = 13
 number2 = 15
+
+# SyntaxError occurs when you break the syntax(i.e the rules of writing your code)
 # number 1 = 17  # SyntaxError: invalid syntax
 # 1number = 17        # SyntaxError: invalid syntax
 
 # Both _a and __a are different variables
 _a = 'Hello World'
 __a = 2
+# print() function is used to display output
 # print(_a)
 # print(__a)
 
-# _ is normally used as garbage collector
+# _ is normally used as garbage collector variable
 _ = 7
 # print(_)
 

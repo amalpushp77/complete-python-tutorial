@@ -2,6 +2,12 @@
 # https://www.programiz.com/python-programming/exceptions
 # https://www.tutorialsteacher.com/python/error-types-in-python
 
+# To troubleshoot you should ask these questions to yourself
+# 1. What does this error mean?
+# 2. Where this error happened?
+# 3. How to fix this error?
+
+
 # 1. Syntax Error
 # 2. Logical Error / Built-in Exceptions
 

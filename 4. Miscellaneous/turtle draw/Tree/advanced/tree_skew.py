@@ -79,9 +79,9 @@ colorbranch(80, 30, .8, cutoff=10, color=(196,0,0))
 tina.backward(100)
     
 
-# tina.forward(100)
-# colorbranch(80, 30, .8, cutoff=10)
-# tina.backward(100)
-# tina.getscreen().update()
-
+tina.forward(100)
+colorbranch(80, 30, .8, cutoff=10)
+tina.backward(100)
+tina.getscreen().update()
+#
 # tina.getscreen().exitonclick()

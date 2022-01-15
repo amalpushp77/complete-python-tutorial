@@ -1,4 +1,20 @@
 Python Programming Tips/Tricks
+
+Learn how to use Pycharm
+https://www.youtube.com/watch?v=hc50ALh_x5g&t=2772s&ab_channel=Amigoscode
+
+Shortcuts
+Ctrl + Space  ---- Basic code completion
+Ctrl + Q      ---- Quick documentation
+Ctrl + D      ---- Duplicate current line or selection
+Ctrl + Shift + up/down ---- Move line up/down
+Shift + Enter ---- Start new line
+
+Pycharm plugins
+1. Presentation assistant
+2. AceJump
+
+
 So, these are the 10 simple yet most useful tips on Python programming:-
 
 1. Modules
