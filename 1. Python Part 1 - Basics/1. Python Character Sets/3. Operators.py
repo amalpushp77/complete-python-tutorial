@@ -17,12 +17,22 @@ print(17 % 5)  # modulus - gives remainder
 print(8//3)  # floor division - gives integer value i.e quotient
 print(2**3)  # power
 
+# Modulus in detail
+''' 1. 8%3 = 2
+    2. 3%8 = 3 (Numerator is less than Denominator, i.e Numerator is the remainder)
+    3. -8%3 = 1 (Negative Remainder, 9-8=1)
+    4. -3%8 = 5 (simple subtract, 8-3=5)
+    5. 0%6 = 0 (0/6 = 0)
+    6. 6%0 = Error (ZeroDivisionError: integer division or modulo by zero)'''
+
 # 2. Assignment operator
 value = 7
 value += 5  # same as value = value + 5
-b
+
 # 3. Comparison operator - returns True or False after comparing 2 values
 print(5 == 7)
+print(3 > 3)
+print(3 >= 3)
 
 # 4. Logical operator - condition based multiple comparison
 print(5 == 7 and 6 >= 5)

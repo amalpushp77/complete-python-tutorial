@@ -1,11 +1,18 @@
 # 1. WAP to find the remainder without using modulus operator
 num1 = 8
 num2 = 3
+
+# Calculator method
 division = num1/num2
 quotient = num1//num2
 remainder = num2*(division-quotient)
 print(remainder)
 print(round(remainder))
+
+# Alternate/Pythonic method
+quotient = num1//num2
+remainder = num1 - (quotient*num2)
+print(remainder)
 
 # 2. comment on the output of following statements
 
