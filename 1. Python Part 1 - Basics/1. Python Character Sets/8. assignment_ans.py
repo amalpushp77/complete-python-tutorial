@@ -28,4 +28,5 @@ print(5 in "1458672")     # TypeError: 'in <string>' requires string as left ope
 print(5 in 145872)        # TypeError: argument of type 'int' is not iterable
 
 # 3. Try short circuit evaluation with logical operators. Pre-requisite - AND/OR boolean table
+# video reference
 # https://www.youtube.com/watch?v=oV1JOkjCw5E&ab_channel=Finxter-CreateYourCodingBusiness
