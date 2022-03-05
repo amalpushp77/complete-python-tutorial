@@ -1,0 +1,31 @@
+1. Numbers
+    Integral
+        -Integers
+        -Boolean
+
+    Non-Integrals
+        -Float
+        -Complex
+        -Decimals
+        -Fractions
+
+
+2. Collection
+    Sequences
+        Mutable
+            -List
+
+        Immutable
+            -Tuple(read-only list)
+            -String
+
+    Sets
+        Mutable
+            -Sets
+
+        Immutable
+            -Frozen sets
+
+
+3. Mapping
+    -Dictionary

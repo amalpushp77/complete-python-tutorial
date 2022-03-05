@@ -16,7 +16,7 @@ last_name = input("Enter last name: ")
 print(first_name + last_name)   # concatenation
 print(first_name, last_name)
 
-# 3. Create user specific message using this template
+# 3. Create user specific message using this template - string formatting
 first_name = input("Enter 1st name: ")
 last_name = input("Enter last name: ")
 phone_number = input("Enter phone no: ")

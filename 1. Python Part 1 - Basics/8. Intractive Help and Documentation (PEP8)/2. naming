@@ -1,0 +1,6 @@
+1. packages - all lowercase no underscore
+2. modules - all lowercase can have underscore
+3. classes - CamelCasing (noun like objects)
+4. function - snake_casing (verb like actions)
+5. variable - snake_casing
+6. constant - all uppercase can have underscore

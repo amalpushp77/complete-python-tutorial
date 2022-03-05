@@ -1,0 +1,13 @@
+1. Callables
+    -Builtin functions
+    -User-define functions
+    -Generators
+    -Class
+    -Instance methods
+    -Class instance - __call__()
+    -Builtin methods
+
+2. Singletons
+    -None
+    -Notimplemented
+    -Ellipsis()
