@@ -19,12 +19,25 @@ print(2**3)  # power
 
 # Modulus in detail
 ''' 1. 8%3 = 2
-    2. 3%8 = 3 (Numerator is less than Denominator, i.e Numerator is the remainder)
-    3. -8%3 = 1 (Negative Remainder, 9-8=1)
-    4. -3%8 = 5 (simple subtract, 8-3=5)
-    5. 0%6 = 0 (0/6 = 0)
-    6. 6%0 = Error (ZeroDivisionError: integer division or modulo by zero)'''
+    2. 3%8 = 3 (always) (Numerator is less than Denominator, i.e Numerator is the remainder)
+    3. -8%3 = 1 (Remainder when Numerator is negative) (can be used as negative remainder)
+    4. 8%-3 = -1 (Remainder when Denominator is negative) 
+    5. 3%-8 = -5 (simple subtract, 3-8=5)
+    6. -3%8 = 5 (simple subtract, -3+8=5)
+    7. 0%6 = 0 (0/6 = 0) (always)
+    8. 6%0 = Error (ZeroDivisionError: integer division or modulo by zero) (always)'''
 
+# Floor division in detail
+''' 1. 8//3 = 2
+    2. 3//8 = 0 (always)
+    3. -8//3 = -3
+    4. -3//8 = -1 (always)
+    5. 0//6 = 0 (always)
+    6. 6//0 = Error (ZeroDivisionError: integer division or modulo by zero) (always)'''
+
+# note on fraction - Numerator/Denominator
+''' (Numerator)Dividend = (Denominator)Divisor * Quotient + Remainder 
+    N = D * (N//D) + N%D'''
 # 2. Assignment operator
 value = 7
 value += 5  # same as value = value + 5

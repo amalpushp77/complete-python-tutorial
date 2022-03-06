@@ -8,6 +8,7 @@ print("Datatype stored in variable a is: ", type(a))
 # 2) Float
 b = 2.7
 print("Datatype stored in variable b is: ", type(b))
+# note division always return float 9(int)/3(int) = 3.0(float)
 
 # 3) Complex
 c = 3 + 4j
