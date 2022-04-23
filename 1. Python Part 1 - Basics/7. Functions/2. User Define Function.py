@@ -22,6 +22,8 @@ def sub(m, n):  # dummy variables m,n
     print(s)
 
 
+# a and bare called the arguments of function sub(). a&b are passed by reference, i.e memory address of a&b are passed.
+# m and n are called parameters. m,n & s are local variables of sub()
 a = int(input("Enter a number: "))
 b = int(input("Enter a number: "))
 
