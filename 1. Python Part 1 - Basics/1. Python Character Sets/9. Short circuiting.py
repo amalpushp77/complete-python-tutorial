@@ -6,6 +6,7 @@
 # there is no meaning in using logical operator on other than boolean datatype
 
 # Evaluate
+
 print(True and bool(print(4)))
 print(False and bool(print(4)))
 print(bool(print(4)) and True)
