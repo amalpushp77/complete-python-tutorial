@@ -39,8 +39,8 @@ print(2**3)  # power
 ''' (Numerator)Dividend = (Denominator)Divisor * Quotient + Remainder 
     N = D * (N//D) + N%D'''
 # 2. Assignment operator
-value = 7
-value += 5  # same as value = value + 5
+x = 7
+x += 5  # same as value = value + 5
 
 # 3. Comparison operator - returns True or False after comparing 2 values
 print(5 == 7)

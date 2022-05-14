@@ -24,7 +24,7 @@ num = 50
 age = 18
 math_marks = 50
 
-# should be a single variable
+# should be a single variable/word
 number1 = 13
 number2 = 15
 
@@ -36,12 +36,12 @@ number2 = 15
 _a = 'Hello World'
 __a = 2
 # print() function is used to display output
-# print(_a)
-# print(__a)
+print(_a)
+print(__a)
 
 # _ is normally used as garbage collector variable
 _ = 7
-# print(_)
+print(_)
 
 # note - avoid using function names as variable
 # print = 27  # this will overwrite the built-in function print with a variable name print
