@@ -14,3 +14,7 @@
 # implicit - list, tuple, dictionary, set, function arguments/parameters
 # Explicit - by using backslash character \
 # note - when using logical newline explicitly, comments can't be written on same line
+
+'amal'
+"sasa"
+"""asd"""

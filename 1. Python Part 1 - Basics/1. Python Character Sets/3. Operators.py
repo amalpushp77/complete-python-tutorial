@@ -65,4 +65,4 @@ print(a is b)
 
 # 6. Membership operator - checks if a sequence is present in an object
 """ in / not in"""
-print('app' in 'apple')
+print('app' not in 'apple')

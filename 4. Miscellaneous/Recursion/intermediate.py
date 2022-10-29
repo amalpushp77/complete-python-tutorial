@@ -3,10 +3,10 @@
 #         print(n)
 #         A(n-1)
 #         print(n)
-#
+
 # total of n invocation/function call
-# # TC: O(n)
-# # SC: Height of tree, O(n)
+# TC: O(n)
+# SC: Height of tree, O(n)
 # A(3)
 
 
@@ -124,7 +124,7 @@ def stair_top(n):
 
     return stair_top(n-1)+stair_top(n-2)+stair_top(n-3)
 
-print(stair_top(2))
+print(stair_top(5))
 
 
 

@@ -22,19 +22,24 @@ def nums(n, l=None):
         return 0
     elif l is not None:
         l.append(n)
-        return nums(n-1, l)
+        n = nums(n-1, l)
+        print(n)
+        return n
+        # return nums(n-1, l)
     else:
         l = []
         l.append(n)
         return l, nums(n-1,l)
 
 
-
 l1, _ = nums(5)
-print(f"l1: {l1}")
-print(f"_: {_}")
+# print(f"l1: {l1}")
+# print(f"_: {_}")
 
 # print(f"l: {l}")
+
+
+
 
 
 # def count_z(num):
