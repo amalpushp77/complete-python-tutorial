@@ -6,7 +6,18 @@
 # there is no meaning in using logical operator on other than boolean datatype
 
 # Evaluate
+def server():
+    print("checking if server is available")
+    return False
 
+def connections():
+    print("checking for connections")
+    return True
+
+if server() or connections():
+    print("do something")
+
+    
 print(True and bool(print(4)))
 print(False and bool(print(4)))
 print(bool(print(4)) and True)

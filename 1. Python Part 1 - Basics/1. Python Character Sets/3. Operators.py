@@ -37,10 +37,13 @@ print(2**3)  # power
 
 # note on fraction - Numerator/Denominator
 ''' (Numerator)Dividend = (Denominator)Divisor * Quotient + Remainder 
+    example: N=8, D=3 (N/D :: 8/3)
+    
     N = D * (N//D) + N%D'''
+
 # 2. Assignment operator
 x = 7
-x += 5  # same as value = value + 5
+x /= 5  # same as x = x / 5
 
 # 3. Comparison operator - returns True or False after comparing 2 values
 print(5 == 7)
